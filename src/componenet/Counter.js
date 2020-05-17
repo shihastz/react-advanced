@@ -25,7 +25,7 @@ alertBox = (event) => (data) => {
   render() {
     return (
       <div>
-        <h2>Counter</h2>
+        <h2>Simple Counter</h2>
         <h3>{this.state.counter}</h3>
         <button onClick={this.onIncrement}>+</button>
         <button onClick={(event) => dynamicDecrement(event, this)}>-</button>

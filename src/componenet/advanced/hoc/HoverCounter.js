@@ -8,7 +8,7 @@ class HoverCounter extends Component {
         return (
             <div>
                 <hr/>
-                <h2>Hoc</h2>
+                <h2>Hoc Hover Counter</h2>
                 <h3 onMouseOver={incrementcount}>{name} Hovered {count} times</h3>
                 <hr/>
             </div>
